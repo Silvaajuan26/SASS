@@ -1,0 +1,33 @@
+@import 'variable';
+
+ header{
+    background: $colorPrimary;
+        width: 100%;
+        position:fixed;
+
+        nav {
+            display: flex;
+            justify-content: center;
+        }
+
+        ul {
+                list-style: none;
+              }
+        
+        ul li {
+              float: left;
+              font-family:'Courier New', Courier, monospace;
+              font-size: 18px;    
+        }  
+        nav ul li a {
+              display: block;
+              padding: 8px;
+              color: #fff;
+              text-decoration: solid;
+        }
+        
+        nav ul li:hover {
+            background: #362d2d;
+            border-radius: 20px;
+        }
+ }

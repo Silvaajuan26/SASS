@@ -1,0 +1,35 @@
+*,
+*::after,
+*::before {
+  padding: 1px;
+  margin: 0;
+}
+
+header {
+  background: rgba(66, 2, 100, 0.536);
+  width: 100%;
+  position: fixed;
+}
+header nav {
+  display: flex;
+  justify-content: center;
+}
+header ul {
+  list-style: none;
+}
+header ul li {
+  float: left;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 18px;
+}
+header nav ul li a {
+  display: block;
+  padding: 8px;
+  color: #fff;
+  -webkit-text-decoration: solid;
+          text-decoration: solid;
+}
+header nav ul li:hover {
+  background: #362d2d;
+  border-radius: 20px;
+}/*# sourceMappingURL=menu.css.map */
